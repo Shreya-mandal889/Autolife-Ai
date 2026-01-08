@@ -1,0 +1,71 @@
+.food-app {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #ff6b6b, #4ecdc4, #45b7d1, #f9ca24);
+  min-height: 100vh;
+  color: white;
+}
+
+.food-app .header {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0,0,0,0.3);
+}
+
+.food-app .nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.food-app .nav button {
+  background: #ff4757;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.food-app .nav button:hover {
+  background: #ff3742;
+}
+
+.food-app .main {
+  padding: 20px;
+}
+
+.food-app .restaurant-card,
+.food-app .menu-item {
+  background: rgba(255,255,255,0.2);
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.food-app .menu-item button,
+.food-app .cart button,
+.food-app .booking button {
+  background: #2ed573;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.food-app .menu-item button:hover,
+.food-app .cart button:hover,
+.food-app .booking button:hover {
+  background: #26a65b;
+}
+
+.food-app input {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
